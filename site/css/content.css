@@ -132,7 +132,7 @@ svg .linked-svg:hover .arrow-back {
     display: inline-block;
     transition: 0.2s;
     margin-top: 10px;
-    right: 62%;
+    right: 60%;
     top: 10%;
     z-index: 3;
 }
