@@ -2,7 +2,7 @@ function scrollDown(){
     // currentPos is de paginapositie vanaf boven
     var currentPos = $(window).scrollTop();
     
-    for(i = 1; i <= 99; i++){
+    for(i = 1; i <= 7; i++){
         var oldPos = (i * 1000) - 1;
         var newPos = i * 1000;
 
@@ -46,3 +46,11 @@ function scroll(num1, num2){
     });
     
 }
+
+//spatie werkt hetzelfde als de scroll knop
+$(window).keypress(function(keyPressed) {
+    if(keyPressed.which === 32 && keyPressed.target == document.body){
+        keyPressed.preventDefault();
+        scrollDown();
+    }
+});
