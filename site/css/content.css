@@ -9,13 +9,19 @@ body{
     font-family: trebuchet ms;
 }
 
+.svg-title{
+    left: 15%;
+    top: 70px;
+    transform: translate(-50%, -50%);
+}
+
 .back-svg{
     height: 393px; 
     display: block;    
     width: 50%;
     position: fixed;
     top: 200px;
-    left: 190px;
+    left: 10%;
     transform: translate(-50%, -50%);
     z-index: 2;
 }
@@ -27,7 +33,6 @@ body{
 .linked-svg{
     fill: black;
     height: 1393px;
-
 }
 
 
@@ -60,11 +65,11 @@ svg .linked-svg:hover .arrow-back {
 
 #topGradient{
     background-image: linear-gradient(white, transparent);
-    width: 100%;
+    width: 60%;
     height: 150px;
-    margin-left: 784px;
     position: fixed;
-    margin-top: 10px;;
+    margin-top: 10px;
+    right: 0px;
     z-index: 9;
 }
 
@@ -80,11 +85,11 @@ svg .linked-svg:hover .arrow-back {
 #bottomGradient{
     background-image: linear-gradient(transparent, white);
     bottom: 0px;
-    width: 100%;
+    width: 60%;
     height: 150px;
-    margin-left: 784px;
     position: fixed;
-    margin-top: 10px;;
+    margin-top: 10px;
+    right: 0px;
     z-index: 9;
 }
 
@@ -124,8 +129,6 @@ p{
     font-size: 40px;
     font-weight: bold;
     position: fixed;
-    left: 250px;
-    top: 50px;
 }
 
 #whiteBG{
@@ -137,12 +140,14 @@ p{
 }
 
 #line{
+    transform: translate(0%, -50%,);
     width: 8px;
     height: 80%;
     background: black;
     position:fixed;
-    left: 776px;
+    left: 40%;
     top: 10%;
+    z-index: 10;
 }
 
 .leftContent{
@@ -151,7 +156,7 @@ p{
     right: 62%;
     top: 390px;
     max-width: 600px;
-    transition: .5s;
+    transition: .5s;a
 
 }
 
@@ -197,10 +202,9 @@ p{
 #rightContent{
     display: flex;
     align-content: center;
-    margin-left: 805px;
+    margin-left: 41%;
     flex-direction: column;
     align-items: center;
-
 }
 
 .rightFlex{
@@ -218,7 +222,7 @@ p{
 #rightImage{
     display:inline-block;
     align-self: center;
-    max-height: 50%;
+    max-height: 55%;
     margin-right: 10px;
     object-fit: contain;
 }
