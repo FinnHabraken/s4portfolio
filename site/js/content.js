@@ -42,5 +42,7 @@ function scroll(num1, num2){
             content.removeClass("scrollShown");
             content.addClass("scrollHidden");
         };
+        console.log(windowPos)
     });
+    
 }
