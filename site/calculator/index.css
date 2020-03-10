@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: trebuchet ms;
+}
+
+.calc{
+    max-width: 250px;;
+}
+
+.calcButtons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.calcNumbers{
+    height: 80px;
+    width: 80px;
+}
+
+.calcAdd{
+    width: 160px;
+}
+    
+.calcEquals{
+    height: 80px;
+    width: 240px;
+}

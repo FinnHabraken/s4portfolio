@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: -1px;
+    margin-bottom: 200px;
+}
+
+#logo{
+    width: 10%;
+    position: fixed;
+    right: 0px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+#topBG{
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 50px solid #e7e7e7;
+}
+
+#topImg{
+    align-items: center;
+    width: 40%;
+    height: auto;
+}
+
+#topText{
+    max-width: 30%;
+    margin-left: 20px;
+}
+
+#topTextTitle{
+    text-align: center;
+}
+
+#topTextBody{
+    max-width: 56%;
+    margin-left: 22%;
+    text-align: center;
+}
+
+#topButton{
+    border-style: none;
+    border-bottom: 5px solid;
+    border-color: white;
+    background-color: white;
+    padding: 5px 20px 0px 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 50px;
+    transition: 0.2s;
+}
+
+#topButton:hover{
+    cursor: pointer;
+    border-color: #ffaf48;
+}
+#topButton:focus{
+    outline: none;
+}
+
+#products{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inverse{
+    background-color: #f6f6f6;
+}
+
+
+#productButton{
+    margin-right: 20px;
+    margin-left: -20px;
+    border-style: none;
+    border-bottom: 5px solid;
+    border-color: #ffaf48;
+    background-color: #ffaf48;
+    padding: 5px 20px 0px 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 40px;
+    transition: 0.2s;
+    color: white;
+}
+#productButton:hover{
+    cursor: pointer;
+    background-color: #f6f6f6;
+    color: #ffaf48;
+    border-color: #ffaf48;
+}
+
+#productPrice{
+    margin-top: 20px;
+}
+
+.txtBold{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.txtItalic{
+    font-size: 45px;
+    font-weight: ExtraLight;
+    font-style: italic;
+    font-weight: 200;
+    color: #ffaf48;
+
+}
+.txtNormal{
+    font-size: 30px;
+    font-weight: ExtraLight;
+    font-weight: 200;
+
+}
+.txtNormalYellow{
+    font-size: 30px;
+    font-weight: ExtraLight;
+    font-style: italic;
+    font-weight: 200;
+    color: #ffaf48;
+
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DEV</title>
+        <link rel="stylesheet" type="text/css" href="SCO.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <p>DEV</p>
+
+        <svg viewBox="0 0 362.000000 255.000000" class="back-svg">
+            <a href="index.html">
+                <g class="linked-svg">
+                    <g transform="translate(120.000000,150.000000) scale(0.036000,-0.036000)">
+                        <path d="M16 2168 c-4 -211 -7 -771 -9 -1245 l-2 -863 40 -4 c22 -3 616 -15
+                                 1320 -27 l1280 -22 435 128 c239 70 458 134 485 142 50 14 50 15 47 51 -2 20
+                                 -20 398 -41 840 -21 442 -41 805 -44 808 -3 3 -88 12 -189 20 -101 7 -370 38
+                                 -598 68 -228 30 -570 75 -760 100 -190 25 -535 70 -766 101 l-421 55 -373 111
+                                 c-206 61 -379 113 -386 116 -9 3 -13 -85 -18 -379z"/>
+                    </g>
+                    <g transform="translate(165.000000,134.000000) scale(0.028000,-0.028000)" class="arrow-back transition">
+                        <path d="M382 1154 c-210 -207 -382 -382 -382 -389 0 -13 751 -757 772 -764
+                                 12 -4 268 248 268 265 0 6 -111 121 -247 255 l-248 243 248 245 c136 134 247
+                                 249 247 255 0 14 -252 266 -266 266 -5 0 -182 -169 -392 -376z"/>
+                    </g>
+                </g>
+            </a>
+        </svg>
+
+        <div id="topGradient"></div>
+        <div id="topWhiteBG"></div>
+        <div id="bottomGradient"></div>
+        <div id="bottomWhiteBG"></div>
+        <div id="whiteBG"></div>
+        <div id="line"></div>
+
+        <div>
+            <a href="leerdoelen/DEV.html">
+                <button type="button" id="leerdoelenButton">Leerdoelen</button>
+            </a>
+        </div>
+
+        <div class="leftContent scrollShown" id="1">
+            <H1 id="leftTitle">GitHub</H1>
+            <div id="leftText">
+                <p1>Alle vooruitgang van het portfolio en alle DEV opdrachten zijn te vinden op de GitHub pagina.</p1>
+            </div>
+            <a href="https://github.com/FinnHabraken/S2Portfolio" target="_blank">
+                <button type="button" id="leftButton">Klik hier voor de GitHub pagina</button>
+            </a>
+        </div>
+
+        <div class="leftContent scrollHidden" id="2">
+            <H1 id="leftTitle">Show On Scroll</H1>
+            <div id="leftText">
+                <p1>Klik <a href="OldSCO.html" target="_blank">hier</a> voor de oude pagina.<br>
+                    Ik wil een script maken waarbij content van de pagina pas zichtbaar is zodra ik bij het kopje van de content ben. Ook wil ik proberen de titel mee te laten scrollen met de pagina en de navbar pas zichtbaar te laten zijn zodra er tot een bepaald deel gescrold is, zodat er steeds meer delen van de site zichtbaar worden naarmate je naar beneden scrolt. Bij het maken van deze opdracht heb ik javascript, jquery en jqueryui gebruikt. 
+                </p1>
+            </div>
+            <div id="leftGradient"></div>
+            <a href="file/ShowOnScroll.pdf" target="_blank">
+                <button type="button" id="leftButton">Klik hier voor de hele opdracht</button>
+            </a>
+        </div>
+
+        <div class="leftContent scrollHidden" id="3">
+            <H1 id="leftTitle">Rock Paper Scissors</H1>
+            <div id="leftText">
+                <p1>Klik <a href="RockPaperScissors.html" target="_blank">hier</a> voor de opdrachtpagina.
+                    <br>
+                    Voor het Rock Paper Scissors spel wil ik proberen een online versie van het spel maken, waarbij je tegen de computer speelt. Als je je keuze hebt gemaakt, verspringt het bijbehorende plaatje. De keuze van de tegenstander is volledig random en is ook niet te beïnvloeden. Onder de plaatjes komt te staan of je hebt gewonnen, verloren of gelijk hebt gespeeld.</p1>
+            </div>
+            <div id="leftGradient"></div>
+            <a href="file/RockPaperScissors.pdf" target="_blank">
+                <button type="button" id="leftButton">Klik hier voor de hele opdracht</button>
+            </a>
+        </div>
+
+
+        <div class="leftContent scrollHidden" id="4">
+            <H1 id="leftTitle">Calculator V1</H1>
+            <div id="leftText">
+                <p1>Klik <a href="calculator/index.html" target="_blank">hier</a> voor de opdrachtpagina.
+                    <br>
+                    Zodra je op een knop drukt wordt er eerst gekeken naar de tekst die er op die knop staat. Als het een nummer is dan wordt p1 vervangen door dit nummer, tenzij hier al een nummer staat, want dan voegt hij alleen een nummer toe aan p1. Als de knop een + is dan wordt er een + ingevuld in. Als de input een ‘=’ is, dan wordt de volgende code uitgevoerd</p1>
+            </div>
+            <div id="leftGradient"></div>
+            <a href="file/CalculatorV1.pdf" target="_blank">
+                <button type="button" id="leftButton">Klik hier voor de hele opdracht</button>
+            </a>
+        </div>
+        <div class="leftContent scrollHidden" id="5">
+            <H1 id="leftTitle">Calculator V2</H1>
+            <div id="leftText">
+                <p1>Klik <a href="calculator/V2/index.html" target="_blank">hier</a> voor de opdrachtpagina.
+                    <br>
+                    De javacript begint met net aanmaken van de var voor buttons en de switchdisplay boolean. Daarna creëert dit scriptje de buttons voor de rekenmachine door middel van de createElement code. Dit stukje code geeft elke button ook meteen de calcNumbers class mee en voegt de button dan toe aan de grid-div. Vervolgens zorgt de if-statement ervoor dat de actions (+, -, * en /) anders worden behandeld dan de nummers. </p1>
+            </div>
+            <div id="leftGradient"></div>
+            <a href="file/CalculatorV2.pdf" target="_blank">
+                <button type="button" id="leftButton">Klik hier voor de hele opdracht</button>
+            </a>
+        </div>
+        <div class="leftContent scrollHidden" id="6">
+            <H1 id="leftTitle">Whack A Mole</H1>
+            <div id="leftText">
+                <p1>Klik <a href="WhackAMole/index.html" target="_blank">hier</a> voor de opdrachtpagina.
+                    <br>
+                    De javascript daarentegen is iets lastiger. Hij begint met het aanmaken van een rng en een points var. Deze hebben we later namelijk nog nodig. Daarna wordt de functie createGrid() aangeroepen (deze functie wordt direct aangeroepen zodra de body ingeladen wordt). Hier wordt meteen de rng verandert naar een random nummer tussen de 0 en 25. </p1>
+            </div>
+            <div id="leftGradient"></div>
+            <a href="file/WhackAMole.pdf" target="_blank">
+                <button type="button" id="leftButton">Klik hier voor de hele opdracht</button>
+            </a>
+        </div>
+
+
+        <svg viewBox="0 0 153.000000 104.000000" class="arrow-down-svg">
+            <g transform="translate(0.000000,104.000000) scale(0.100000,-0.100000)" onclick="scrollDown()" id="arrow-down" class="transition">
+                <path d="M121 916 c-75 -75 -122 -129 -119 -139 4 -18 755 -777 769 -777 5 0
+                         9 6 9 12 0 7 170 183 377 390 l378 378 -130 130 c-71 71 -136 130 -145 130 -8
+                         0 -124 -109 -257 -242 l-243 -243 -243 243 c-133 133 -249 242 -257 242 -9 0
+                         -71 -56 -139 -124z"/>
+            </g>
+        </svg>
+
+
+        <div id="rightContent">
+            <div class="rightFlex">
+                <img src="image/dev-photo-git.jpg" id="rightImage" >
+            </div>
+            <div class="rightFlex"> 
+                <img src="image/dev-photo-1.jpg" id="rightImage">
+            </div>
+            <div class="rightFlex">
+                <img src="image/dev-photo-2.jpg" id="rightImage">
+            </div>
+            <div class="rightFlex">
+                <img src="image/dev-photo-3.jpg" id="rightImage">
+            </div>
+            <div class="rightFlex">
+                <img src="image/dev-photo-4.jpg" id="rightImage">
+            </div>
+            <div class="rightFlex">
+                <img src="image/dev-photo-5.jpg" id="rightImage">
+            </div>
+        </div>
+    </body>
+</html>
