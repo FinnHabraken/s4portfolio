@@ -188,6 +188,8 @@ svg .linked-svg:hover .arrow-back {
     text-overflow: ellipsis;
     max-height: 120px;
     overflow: hidden;
+    background: blue;
+    z-index: 1;
 }
 
 #leftGradient{
@@ -198,6 +200,10 @@ svg .linked-svg:hover .arrow-back {
     bottom: 55px;
 }
 
+.buttonRef{
+    text-decoration: none;    
+}
+
 #leftButton{
     background-color: white;
     border-style: solid;
@@ -206,11 +212,11 @@ svg .linked-svg:hover .arrow-back {
     font-size: 23px;
     color: #525252;
     padding: 10px;
-    display: inline-block;
+    display: block;
     transition: 0.2s;
-    margin-top: 10px;
+    margin-top: -10px;
     border-radius: 5px;
-
+    z-index: -10;
 }
 
 #leftButton:hover{
